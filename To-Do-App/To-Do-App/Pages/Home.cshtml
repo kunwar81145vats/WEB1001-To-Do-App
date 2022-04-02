@@ -1,0 +1,21 @@
+@page
+@model To_Do_App.Pages.HomeModel
+@{ ViewData["Title"] = "Home";
+                Layout = null;
+ }
+
+<h1>To Do List</h1>
+
+@foreach (var item in Model.Items)
+{
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Name)<br />
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Descrip)<br />
+    </td>
+</tr>}
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

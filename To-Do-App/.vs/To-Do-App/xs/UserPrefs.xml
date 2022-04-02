@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{DA22DF61-B829-4B15-906E-F3945090579C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="To-Do-App/Pages/Home.cshtml.cs">
+    <Files>
+      <File FileName="To-Do-App/Model/ToDoModel.cs" Line="10" Column="1" />
+      <File FileName="To-Do-App/Services/ToDoService.cs" Line="17" Column="101" />
+      <File FileName="To-Do-App/Pages/Home.cshtml" Line="13" Column="1" />
+      <File FileName="To-Do-App/Startup.cs" Line="28" Column="46" />
+      <File FileName="To-Do-App/Pages/Home.cshtml.cs" Line="14" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="To-Do-App" expanded="True">
+            <Node name="To-Do-App" expanded="True">
+              <Node name="Model" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Home.cshtml" expanded="True">
+                  <Node name="Home.cshtml.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.To-Do-App PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

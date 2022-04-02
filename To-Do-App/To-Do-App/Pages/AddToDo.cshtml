@@ -1,0 +1,11 @@
+@page
+@model To_Do_App.Pages.AddToDoModel
+@{
+    ViewData["Title"] = "AddToDo";
+}
+
+<h1>AddToDo</h1>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
