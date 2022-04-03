@@ -1,11 +1,27 @@
-@page
+@page "{id:int?}"
 @model To_Do_App.Pages.AddToDoModel
-@{
-    ViewData["Title"] = "AddToDo";
-}
+@{ ViewData["Title"] = "Add To Do"; }
 
-<h1>AddToDo</h1>
+<h1>Add a new ToDo</h1>
 
+<body>
+    <form method="post">
+        <fieldset>
+            <div>
+                <label for="Nam">Name:</label>
+                <input type="text" name="Name" value="@Html.DisplayFor(modelItem => Model.Name)" />
+            </div>
+            <div>
+                <label for="Descrip">Description:</label>
+                <input type="text" name="Descrip" value="@Html.DisplayFor(modelItem => Model.Descrip)" />
+            </div>
+            <div>
+                <label>&nbsp;</label>
+                <td><input type="submit" value="Submit" asp-page-handler="Submit"/></td>
+            </div>
+        </fieldset>
+    </form>
+</body>
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

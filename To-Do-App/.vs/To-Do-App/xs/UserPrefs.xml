@@ -1,11 +1,16 @@
 ﻿<Properties StartupConfiguration="{DA22DF61-B829-4B15-906E-F3945090579C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="To-Do-App/Pages/Home.cshtml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="To-Do-App/Pages/Shared/_Layout.cshtml">
     <Files>
       <File FileName="To-Do-App/Model/ToDoModel.cs" Line="10" Column="1" />
-      <File FileName="To-Do-App/Services/ToDoService.cs" Line="17" Column="101" />
-      <File FileName="To-Do-App/Pages/Home.cshtml" Line="13" Column="1" />
-      <File FileName="To-Do-App/Startup.cs" Line="28" Column="46" />
-      <File FileName="To-Do-App/Pages/Home.cshtml.cs" Line="14" Column="1" />
+      <File FileName="To-Do-App/Services/ToDoService.cs" />
+      <File FileName="To-Do-App/Pages/Home.cshtml" Line="17" Column="24" />
+      <File FileName="To-Do-App/Startup.cs" Line="1" Column="1" />
+      <File FileName="To-Do-App/Pages/Home.cshtml.cs" />
+      <File FileName="To-Do-App/Pages/AddToDo.cshtml.cs" Line="15" Column="10" />
+      <File FileName="To-Do-App/Pages/AddToDo.cshtml" />
+      <File FileName="To-Do-App/Program.cs" Line="1" Column="1" />
+      <File FileName="To-Do-App/Properties/launchSettings.json" Line="22" Column="48" />
+      <File FileName="To-Do-App/Pages/Shared/_Layout.cshtml" Line="33" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,10 +19,11 @@
             <Node name="To-Do-App" expanded="True">
               <Node name="Model" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="Home.cshtml" expanded="True">
-                  <Node name="Home.cshtml.cs" selected="True" />
-                </Node>
+                <Node name="Shared" expanded="True" />
+                <Node name="AddToDo.cshtml" expanded="True" />
+                <Node name="Home.cshtml" expanded="True" />
               </Node>
+              <Node name="Properties" expanded="True" />
               <Node name="Services" expanded="True" />
             </Node>
           </Node>
@@ -25,11 +31,13 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.To-Do-App PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.To-Do-App PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/kunwar/Documents/WEB-1001/to-do-app/To-Do-App/To-Do-App/Pages/Home.cshtml.cs" relfile="To-Do-App/Pages/Home.cshtml.cs" line="43" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

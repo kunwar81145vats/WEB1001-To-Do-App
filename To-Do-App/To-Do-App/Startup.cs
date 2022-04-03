@@ -26,6 +26,11 @@ namespace To_Do_App
         {
             services.AddRazorPages();
             _ = services.AddTransient<ToDoService>();
+            services.AddSingleton<ToDoService>(new ToDoService());
+            services.AddMvc().AddRazorPagesOptions(options =>
+            {
+                options.Conventions.AddPageRoute("/Home", "");
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

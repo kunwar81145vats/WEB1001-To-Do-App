@@ -21,8 +21,15 @@ namespace To_Do_App.Pages
 
         public ActionResult OnGet()
         {
-            Items = _service.GetToDos();
+            Items = _service.GetUncompleteToDos();
             return Page();
         }
+
+        public IActionResult OnPostSubmit(ToDoModel model)
+        {
+            Items = _service.MarkAsDone(model);
+            return Page();
+        }
+
     }
 }

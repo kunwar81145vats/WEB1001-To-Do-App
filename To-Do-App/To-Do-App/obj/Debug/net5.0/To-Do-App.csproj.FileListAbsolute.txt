@@ -98,7 +98,6 @@
 /Users/kunwar/Documents/WEB-1001/to-do-app/To-Do-App/To-Do-App/obj/Debug/net5.0/To-Do-App.TagHelpers.output.cache
 /Users/kunwar/Documents/WEB-1001/to-do-app/To-Do-App/To-Do-App/obj/Debug/net5.0/To-Do-App.RazorCoreGenerate.cache
 /Users/kunwar/Documents/WEB-1001/to-do-app/To-Do-App/To-Do-App/obj/Debug/net5.0/Razor/Pages/Error.cshtml.g.cs
-/Users/kunwar/Documents/WEB-1001/to-do-app/To-Do-App/To-Do-App/obj/Debug/net5.0/Razor/Pages/Index.cshtml.g.cs
 /Users/kunwar/Documents/WEB-1001/to-do-app/To-Do-App/To-Do-App/obj/Debug/net5.0/Razor/Pages/Privacy.cshtml.g.cs
 /Users/kunwar/Documents/WEB-1001/to-do-app/To-Do-App/To-Do-App/obj/Debug/net5.0/Razor/Pages/Shared/_Layout.cshtml.g.cs
 /Users/kunwar/Documents/WEB-1001/to-do-app/To-Do-App/To-Do-App/obj/Debug/net5.0/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
@@ -113,3 +112,4 @@
 /Users/kunwar/Documents/WEB-1001/to-do-app/To-Do-App/To-Do-App/obj/Debug/net5.0/To-Do-App.pdb
 /Users/kunwar/Documents/WEB-1001/to-do-app/To-Do-App/To-Do-App/obj/Debug/net5.0/To-Do-App.genruntimeconfig.cache
 /Users/kunwar/Documents/WEB-1001/to-do-app/To-Do-App/To-Do-App/obj/Debug/net5.0/Razor/Pages/Home.cshtml.g.cs
+/Users/kunwar/Documents/WEB-1001/to-do-app/To-Do-App/To-Do-App/obj/Debug/net5.0/Razor/Pages/AddToDo.cshtml.g.cs
