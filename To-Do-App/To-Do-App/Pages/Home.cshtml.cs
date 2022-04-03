@@ -25,8 +25,11 @@ namespace To_Do_App.Pages
             return Page();
         }
 
-        public IActionResult OnPostSubmit(ToDoModel model)
+        public IActionResult OnPostSubmit(int id)
         {
+            List<ToDoModel> items = _service.GetUncompleteToDos();
+            ToDoModel model = items.Find(m => m.Id == id);
+
             Items = _service.MarkAsDone(model);
             return Page();
         }
