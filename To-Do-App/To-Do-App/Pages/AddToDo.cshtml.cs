@@ -1,3 +1,8 @@
+/*
+ * Razor page to add a new todo
+ */
+
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -26,6 +31,7 @@ namespace To_Do_App.Pages
             _service = service;
         }
 
+        //Fill the field if user came from edit button
         public async Task<IActionResult> OnGetAsync(int? id)
         {
             if (id != null)
@@ -41,6 +47,8 @@ namespace To_Do_App.Pages
             return Page();
         }
 
+
+        //Called on Submit to button to create a new todo or edit a todo
         public IActionResult OnPostSubmit(ToDoModel model)
         {
             if (model.Name == null)

@@ -19,12 +19,14 @@ namespace To_Do_App.Pages
             _service = service;
         }
 
+        //Called on page load
         public ActionResult OnGet()
         {
             Items = _service.GetUncompleteToDos();
             return Page();
         }
 
+        //Called on Mark as Done button action
         public IActionResult OnPostSubmit(int id)
         {
             List<ToDoModel> items = _service.GetUncompleteToDos();

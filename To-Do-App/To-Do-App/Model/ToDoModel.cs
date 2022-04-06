@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * Model class for the todo
+ */
+
+
+using System;
 namespace To_Do_App.Model
 {
     public class ToDoModel
